@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="lib" path="F:\DAM\Segundo\DI\llibreries_jasper_java\commons-beanutils-1.9.0.jar"/>
+	<classpathentry kind="lib" path="F:\DAM\Segundo\DI\llibreries_jasper_java\commons-collections4-4.2.jar"/>
+	<classpathentry kind="lib" path="F:\DAM\Segundo\DI\llibreries_jasper_java\commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="F:\DAM\Segundo\DI\llibreries_jasper_java\commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="F:\DAM\Segundo\DI\llibreries_jasper_java\groovy-all-2.0.1.jar"/>
+	<classpathentry kind="lib" path="F:\DAM\Segundo\DI\llibreries_jasper_java\itext-2.1.7.js4.jar"/>
+	<classpathentry kind="lib" path="F:\DAM\Segundo\DI\llibreries_jasper_java\itextpdf-5.5.13.jar"/>
+	<classpathentry kind="lib" path="F:\DAM\Segundo\DI\llibreries_jasper_java\itext-pdfa-5.5.13.jar"/>
+	<classpathentry kind="lib" path="F:\DAM\Segundo\DI\llibreries_jasper_java\jasperreports-6.11.0.jar"/>
+	<classpathentry kind="lib" path="F:\DAM\Segundo\DI\llibreries_jasper_java\jtds-1.3.1.jar"/>
+	<classpathentry kind="lib" path="F:\DAM\Segundo\DI\llibreries_jasper_java\mysql-connector-java-8.0.19.jar"/>
+</classpath>
