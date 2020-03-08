@@ -305,10 +305,7 @@ public class main {
     
     public static void getReport3() throws JRException, ClassNotFoundException, SQLException {
     	JasperDesign jd = JRXmlLoader.load(rutaImportacion); //OJO CON ESTA RUTA !!!!
-        JRDesignQuery query = new JRDesignQuery();
-        
-        dateSelection(); //Cambia esto por lo que hagas para las fechas meloncio!!!!!!! 
-        
+        JRDesignQuery query = new JRDesignQuery();        
         
     	
     	query.setText("SELECT E.emp_no, first_name, last_name, dept_name FROM employees E INNER JOIN dept_emp DE ON E.emp_no = DE.emp_no INNER JOIN departments DEP ON DE.dept_no = DEP.dept_no WHERE from_date > '"+fechaInicio+"' AND from_date < '"+fechaFinal+"'");
@@ -337,10 +334,6 @@ public class main {
 
         System.out.print("\n Se ha creado el fichero " + nombreFichero+ ".pdf con exito");
     }
-    
-    public static void dateSelection() {
-    	
-    }  
     
     public static String showDepartments() {
     	String department = "";
