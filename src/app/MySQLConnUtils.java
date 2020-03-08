@@ -19,7 +19,7 @@ public class MySQLConnUtils {
         // If you use Java> 5, then this line is not needed.
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        String connectionURL = "jdbc:mysql://" + hostName + ":3306/" + dbName;
+        String connectionURL = "jdbc:mysql://" + hostName + ":43306/" + dbName;
 
         Connection conn = DriverManager.getConnection(connectionURL, userName, password);
         return conn;
